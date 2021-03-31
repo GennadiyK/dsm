@@ -1,7 +1,7 @@
 {
-  "authToken": "<authentication token>",
-  "dsmHost": "projects.invisionapp.com",
-  "organization": "<organization>",
+  "authToken": "Sk03kJYRU",
+  "dsmHost": "eisgroup.invisionapp.com",
+  "organization": "eis-group",
   "outputDir": ".dsm",
-  "storyPath": "src/**/*.stories.js"
+  "storyPath": "src/**/*.stories.jsx"
 }

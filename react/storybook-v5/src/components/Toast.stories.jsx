@@ -23,8 +23,5 @@ storiesOf('Toast', module)
           status={select('status', statusOptions, statusOptions.default)}
         />
       );
-    },
-    {
-      'in-dsm': { id: '5c4eb8659b3358003a8b60ff', version: '1.0.0' }
     }
   );

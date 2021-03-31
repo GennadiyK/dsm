@@ -1,0 +1,101 @@
+$color-primary-d-1: #2863a9;
+$color-primary-l-1: #4a90e2;
+$color-neutral-l-6: #f5f5f5;
+$color-white: #fff;
+
+.login-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.login-card {
+    background-color: $color-white;
+    box-shadow: 0px 8px 10px 0px rgba(0, 35, 64, 0.2);
+    border-radius: 0.3125rem;
+    padding: 2.375rem 1.375rem;
+    margin-top: 7.5%;
+    margin-right: 8.4%;
+    width: 24.5rem;
+}
+
+.login-card__logo-wrapper {
+    display: flex;
+    align-items: center;
+    padding-bottom: 2.5625rem;
+}
+
+.login-card__title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.login-form {
+    .ant-form-item {
+        margin-bottom: 1rem;
+        &.login-form__item-checkbox {
+            margin-bottom: 1.875rem;
+        }
+    }
+    .ant-form-item-label {
+        line-height: 0.875rem;
+        margin-bottom: 0.625rem;
+        & > label {
+            font-size: 0.8125rem;
+        }
+    }
+    .ant-input {
+        height: 2.5625rem;
+    }
+    .ant-btn {
+        height: 2.875rem;
+    }
+
+    label {
+        &:after,
+        &:before {
+            display: none;
+        }
+    }
+}
+
+.login-form__item-checkbox {
+    .ant-form-item-control {
+        line-height: 0.8rem;
+    }
+}
+
+.login-form__item-password {
+    .ant-form-item-label {
+        display: block;
+
+        label {
+            display: flex;
+        }
+    }
+
+    .login-form__forgot-pass {
+        margin-left: auto;
+    }
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.logo-name {
+    fill: #1d6681;
+}

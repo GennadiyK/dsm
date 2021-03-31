@@ -12,26 +12,19 @@ export default {
     component: Button,
     decorators: [withKnobs],
     // Module-Level 'in-dsm' configuration (Will apply to all stories inside the module)
-    'in-dsm': { id: '5ef26f75b11374d346b6dcad', versionFilePath: '../components/versionFile.json' }
   }
 };
 
 const iconOptions = { none: null, 'chevron-right': 'chevron-right' };
 
 export const simpleButton = () => (
-  <Button
-    onClick={() => action('Button clicked')('Click')}
-    icon={select('icon', iconOptions, iconOptions.none)}
-    disabled={boolean('disabled', false)}
-  >
-    {text('children', 'TEXT')}
-  </Button>
+  <div>Login</div>
 );
 
 simpleButton.story = {
   parameters: {
     // Story-Level 'in-dsm' configuration (Will apply only to the story that is being configured)
     // Story-Level configuration will override Module-Level 'in-dsm' configuration for the specific story
-    // 'in-dsm': { id: '5d81da1f794992009993e356', versionFilePath: './versionFile.json' },
+    'in-dsm': { id: '5e45c8b621fb52b43ce3245d', versionFilePath: '../components/versionFile.json' },
   }
 };
